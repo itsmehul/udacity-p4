@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: p3-bucket
+  AWS_PROFILE: default
+  AWS_REGION: ap-south-1
+  JWT_SECRET: cupcake
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: p3-db.cryshvgnffch.ap-south-1.rds.amazonaws.com
+  URL: http://localhost:8100
+metadata:
+  name: env-config
